@@ -9,7 +9,7 @@ O foco foi trabalhar a **estrutura básica em HTML e CSS**, criando uma landing 
 ## 🔗 Deploy
 
 Você pode visualizar o projeto publicado aqui:  
-👉 [https://cezarasilva-project1-ts.netlify.app/](https://cezarasilva-project1-ts.netlify.app/)
+👉 clica_aqui(https://cezarasilva-project1-ts.netlify.app/)
 
 ---
 
