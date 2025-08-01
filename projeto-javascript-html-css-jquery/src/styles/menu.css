@@ -1,0 +1,98 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#dishes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.dish {
+    position: relative; 
+    /* Removida propriedade duplicada (overflow: visible) */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 25%;
+    padding: 20px;
+    background: var(--primary-color-1);
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 90px;
+}
+
+.dish-heart {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--secundary-color-2);
+    color: var(--primary-color-1);
+    font-size: 1.2rem;
+    border-radius: 0px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dish-image {
+    max-width: 280px;
+    height: auto;
+}
+
+.dish-description {
+    color: var(--secundary-color-1);
+    font-weight: 450;
+    text-align: center;
+}
+
+.dish-rate i {
+    color: var(--secundary-color-3);
+}
+
+.dish-price {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.fa-basket-shopping {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1170px) {
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dish {
+        flex: 1 1 calc(50% - 12px);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .dish{
+        flex: 1 1 100%; 
+
+    }
+
+    #menu .section-subtitle {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+}
