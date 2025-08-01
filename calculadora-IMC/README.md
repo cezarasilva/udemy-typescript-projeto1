@@ -29,8 +29,6 @@ Você pode acessar e testar a Calculadora de IMC diretamente pelo Netlify, onde 
 Além da calculadora de IMC, este repositório também inclui outros exercícios e pequenos projetos que desenvolvi durante meus estudos:
 
 * **`landing-page`**: Uma página de destino simples.
-* **`aulaXX/`**: Pastas contendo exercícios e exemplos práticos de aulas (ex: `aula03`, `aula04`, etc.).
-* **`exercicios-typescript`**: Exercícios e práticas com TypeScript.
 
 ---
 
